@@ -5,7 +5,7 @@ This project allows accessing and adding movies, users and tickets into a databa
 The server is run via the `server.py` file and then opens on <http://localhost:7007> by default. Both host and port can be changed at the top of the `server.py` file.
 
 # Endpoints
-The enpoints availiable include, but are not limited to:
+The enpoints available include, but are not limited to:
 - GET   /
 - GET   /ping
 - GET   /movies
@@ -17,3 +17,6 @@ The enpoints availiable include, but are not limited to:
 - GET   /users
 - GET   /users/<username>/tickets
 - POST  /reset
+
+# Dependencies
+The only non-standard dependency for this project is the [Bottle](https://bottlepy.org/docs/dev/) framework.
